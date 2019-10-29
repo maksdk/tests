@@ -1,0 +1,8 @@
+{
+   "dependencies": {
+      "lodash": "*"
+   },
+   "jest": {
+      "testEnvironment": "node"
+   }
+}
