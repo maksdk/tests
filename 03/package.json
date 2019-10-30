@@ -1,0 +1,17 @@
+{
+  "scripts": {
+    "dev": "npx babel-node index.js",
+    "test1": "npx babel-node tests/take.test.js",
+    "test2": "npx babel-node tests/dividers.test.js"
+  },
+  "devDependencies": {
+    "@babel/cli": "^7.6.2",
+    "@babel/core": "^7.6.2",
+    "@babel/node": "^7.6.2",
+    "@babel/preset-env": "^7.6.2",
+    "jest": "^24.9.0"
+  },
+  "dependencies": {
+    "lodash": "*"
+  }
+}
